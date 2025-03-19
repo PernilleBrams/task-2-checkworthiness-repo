@@ -1,6 +1,6 @@
 # Streamlit Annotation Tool for Checkworthiness 🗣️📝
 
-This tool is **Task 2** in a multi-phase annotation project. It focuses on identifying **which statements are worth fact-checking** (“Bør faktatjekkes”) in political debates. **Task 1** (Rhetorical Strategies) is located in a **different repository**.
+This tool is **Task 2** in a multi-phase annotation project. It focuses on identifying **which statements are worth fact-checking** (“Bør faktatjekkes”) in political debates. **Task 1** (Rhetorical Strategies) is located in the **task-1-rhetorical-strategies-repo** repository.
 
 ## ✨ Key Features
 
@@ -65,7 +65,7 @@ annotation-tool-checkworthiness/
 3. **Label Snippets**  
    - Each text is shown in a highlighting widget.  
    - **Highlight** any phrase/statement that “Bør faktatjekkes.”  
-   - (Optional) Label everything else as “Andet” or simply leave it unhighlighted.
+   - (Optional) Label other things as “Andet” if you think they have impact on the overall expressions in the text. Add a comment to elaborate on the marking if you wish.
 
 4. **Comment (Optional)**  
    - If unsure or you want to note something, add remarks in the comment box below.
@@ -76,7 +76,7 @@ annotation-tool-checkworthiness/
 
 6. **Completion or Logout**  
    - Once all texts are annotated, you’ll see a **completion message**.  
-   - You can also **log out** in the sidebar at any time—partial annotations will be saved before exiting.
+   - You can also **log out** in the sidebar at any time-partial annotations will be saved before exiting.
 
 ---
 
