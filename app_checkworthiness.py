@@ -339,8 +339,8 @@ submit_button = st.button("Gem annotation", disabled=submit_button_disabled)
 
 if submit_button:
     # Extract text per label from recorded selections
-    check_worthy_text = " ".join([s.text for s in selection_data if 'Bør faktatjekkes' in s.labels])
-    other_text = " ".join([s.text for s in selection_data if 'Andet' in s.labels])
+    check_worthy_text = ", ".join([s.text for s in selection_data if 'Bør faktatjekkes' in s.labels])
+    other_text = ", ".join([s.text for s in selection_data if 'Andet' in s.labels])
     
     annotation_data = [
         user_id,
