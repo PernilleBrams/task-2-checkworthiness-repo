@@ -219,30 +219,29 @@ st.markdown("""
     
 *Har du nogle spørgsmål? Skriv til mig (Pernille) på au650502@cas.au.dk* 🌞
 """)
-#     ### **📌 Forklaring på retoriske strategier med eksmepler**
 
-with st.expander("🔍 Klik her for at se lidt eksempler på, hvordan stategierne ser ud 🔍 "):
-    st.markdown("""
-    ### **📌 Label forklaringer & eksempler**
+# with st.expander("🔍 Klik her for at se lidt eksempler på, hvordan stategierne ser ud 🔍 "):
+#     st.markdown("""
+#     ### **📌 Label forklaringer & eksempler**
 
-    🔍 **Bør faktatjekkes (Checkworthy)**  
-    _Definition_: En påstand, der indeholder faktuelle oplysninger, som offentligheden kunne have interesse i at få verificeret.  
-    _Eksempel_:  
-    **Spørger**: *"Er det rigtigt, at Danmark har det højeste skattetryk i verden?"*  
-    **Ordfører**: *"Ja, Danmark har det højeste skattetryk i OECD-landene."*  
-    🔹 **Inkluderer**:
-    - Kvantitative udsagn om økonomi, kriminalitet, sundhed osv.
-    - Historiske eller videnskabelige påstande.
-    - Referencer til konkrete statistikker eller data.
+#     🔍 **Bør faktatjekkes (Checkworthy)**  
+#     _Definition_: En påstand, der indeholder faktuelle oplysninger, som offentligheden kunne have interesse i at få verificeret.  
+#     _Eksempel_:  
+#     **Spørger**: *"Er det rigtigt, at Danmark har det højeste skattetryk i verden?"*  
+#     **Ordfører**: *"Ja, Danmark har det højeste skattetryk i OECD-landene."*  
+#     🔹 **Inkluderer**:
+#     - Kvantitative udsagn om økonomi, kriminalitet, sundhed osv.
+#     - Historiske eller videnskabelige påstande.
+#     - Referencer til konkrete statistikker eller data.
 
-    👀 **Andet (Other)**  
-    _Definition_: Hvis en udtalelse ikke passer ind i de andre kategorier, men stadig er relevant.  
-    🔹 **Inkluderer**:
-    - Udtalelser, der ikke indeholder nogen af de ovenstående strategier.
-    - Tekniske forklaringer eller neutral information.
-    - Meget vage eller uklare svar.
+#     👀 **Andet (Other)**  
+#     _Definition_: Hvis en udtalelse ikke passer ind i de andre kategorier, men stadig er relevant.  
+#     🔹 **Inkluderer**:
+#     - Udtalelser, der ikke indeholder nogen af de ovenstående strategier.
+#     - Tekniske forklaringer eller neutral information.
+#     - Meget vage eller uklare svar.
 
-    """)
+#     """)
 
 import re
 
